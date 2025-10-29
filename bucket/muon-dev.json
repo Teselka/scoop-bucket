@@ -1,0 +1,15 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "0.6.0-7fd1ba92",
+    "description": "An implementation of the meson build system in c99 ",
+    "homepage": "https://muon.build/",
+    "license": "MIT",
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://muon.build/releases/v0.6.0/muon-v0.6.0-amd64-win.exe",
+            "hash": "bcf2732c09643c58d7c57593d0926c4b2a9a0435a2c11f3edf5c81d85e86b28e"
+        }
+    },
+    "bin": "muon-v0.6.0-amd64-win.exe"
+}
