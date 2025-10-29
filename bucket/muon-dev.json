@@ -11,5 +11,6 @@
             "hash": "bcf2732c09643c58d7c57593d0926c4b2a9a0435a2c11f3edf5c81d85e86b28e"
         }
     },
-    "bin": "muon-v0.6.0-amd64-win.exe"
+    "bin": "muon-v0.6.0-amd64-win.exe",
+    "pre_install": "Rename-Item 'muon-v0.6.0-amd64-win.exe' 'muon.exe'",
 }
