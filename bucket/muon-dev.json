@@ -12,5 +12,5 @@
         }
     },
     "bin": "muon.exe",
-    "pre_install": "Rename-Item 'muon-v0.6.0-amd64-win.exe' 'muon.exe'",
+    "pre_install": "Rename-Item \"$dir\\muon-v0.6.0-amd64-win.exe\" 'muon.exe'",
 }
