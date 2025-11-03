@@ -14,6 +14,7 @@
             "hash": "40ffbf52dd24759ba65eeb95df6e7925566e812ea78f503adca237587b0cbdb7"
         }
     },
+    "persist": "UsbTreeView.ini",
     "checkver": {
         "url": "https://www.uwe-sieber.de/usbtreeview_e.html",
         "regex": "USB Device Tree Viewer V?([\\d\\.]+)"
