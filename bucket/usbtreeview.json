@@ -17,7 +17,7 @@
     },
     "checkver": {
         "url": "https://www.uwe-sieber.de/usbtreeview_e.html",
-        "regex": "USB Device Tree Viewer V?([\d\.]+)"
+        "regex": "USB Device Tree Viewer V?([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
