@@ -15,7 +15,7 @@
     "checkver": {
         "url": "https://github.com/muon-build/muon/latest-commit/master",
         "regex": "muon-build\/muon\/commit\/?([a-z|0-9]+)"
-    }
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
