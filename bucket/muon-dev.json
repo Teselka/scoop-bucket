@@ -1,6 +1,5 @@
 {
-    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "0.6.0-7fd1ba92",
+    "version": "7fd1ba9239251a6fd5c89518a6496afff8d65f1b",
     "description": "An implementation of the meson build system in c99 ",
     "homepage": "https://muon.build/",
     "license": "MIT",
@@ -12,5 +11,16 @@
         }
     },
     "bin": "muon.exe",
-    "pre_install": "Rename-Item \"$dir\\muon-v0.6.0-amd64-win.exe\" 'muon.exe'"
+    "pre_install": "Rename-Item \"$dir\\muon-v0.6.0-amd64-win.exe\" 'muon.exe'",
+    "checkver": {
+        "url": "https://github.com/muon-build/muon/latest-commit/master",
+        "regex": "muon-build\/muon\/commit\/?([a-z|0-9]+)"
+    }
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://muon.build/releases/v0.6.0/muon-v0.6.0-amd64-win.exe"
+            }
+        }
+    }
 }
