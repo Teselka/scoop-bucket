@@ -11,5 +11,5 @@
         }
     },
     "bin": "CreamInstaller.exe",
-    "pre_install": "Rename-Item \"$dir\\CreamInstaller 5.0.0.exe\" 'CreamInstaller.exe'"
+    "pre_install": "Rename-Item \"$dir\\CreamInstaller%205.0.0.exe\" 'CreamInstaller.exe'"
 }
