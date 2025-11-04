@@ -1,0 +1,15 @@
+{
+    "version": "5.0.0",
+    "description": "Automatically finds all installed Steam, Epic and Ubisoft games with their respective DLC-related DLL locations on the user's computer, parses SteamCMD, Steam Store and Epic Games Store for user-selected games' DLCs, then provides a very simple graphical interface utilizing the gathered information for the maintenance of DLC unlockers.",
+    "homepage": "https://cs.rin.ru/forum/viewtopic.php?f=29&t=117227",
+    "license": "GPL-3.0",
+    "notes": "Download is slow because of the archive.org download speed limit.",
+    "architecture": {
+        "64bit": {
+            "url": "https://archive.org/download/creaminstaller_202504/CreamInstaller%205.0.0.exe",
+            "hash": "690ef7fce4657fd67b68115c86e5bb7dfac87614f20e743acff5332f85d19d73"
+        }
+    },
+    "bin": "CreamInstaller.exe",
+    "pre_install": "Rename-Item \"$dir\\CreamInstaller 5.0.0.exe\" 'CreamInstaller.exe'",
+}
