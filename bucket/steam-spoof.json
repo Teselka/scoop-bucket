@@ -14,7 +14,7 @@
         "args": "/S"
     },
     "post_uninstall": [
-        "rmdir /S \"%USERPROFILE%\\AppData\\Local\\Steam\"",
+        "Remove-Item -Path \"$env:USERPROFILE\\AppData\\Local\\Steam\" -Recurse -Force -ErrorAction SilentlyContinue",
 
         "reg delete \"HKEY_CURRENT_USER\\SOFTWARE\\Valve\" /f",
         "reg delete \"HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Valve\" /f",
